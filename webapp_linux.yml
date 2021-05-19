@@ -1,9 +1,9 @@
 - hosts: localhost
   connection: local
   vars:
-    resource_group: DSO-WEBAPP-RG
-    webapp_name: DSO-WEBAPP-ANSTOW
-    plan_name: DSO-PLAN-ANSTOW
+    resource_group: RG-COR-EUS-S-AnsibleTower
+    webapp_name: WA-COR-EUS-S-AnsibleTower
+    plan_name: ASP-COR-EUS-S-AnsibleTower
     location: eastus
   tasks:
     - name: Create a resource group
